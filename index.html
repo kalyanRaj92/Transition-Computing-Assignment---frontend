@@ -8,7 +8,22 @@
 </head>
 <body>
     <h1>Checklist Dashboard</h1>
-    <div id="results"></div>
+    <table id="resultsTable" class="results-table">
+        <thead>
+            <tr>
+                <th>Application ID</th>
+                <th>Valuation Fee Paid</th>
+                <th>UK Resident</th>
+                <th>Risk Rating</th>
+                <th>LTV Below 60%</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="data-body">
+            <!-- Content will be dynamically injected -->
+        </tbody>
+    </table>
+    
     <script src="script.js"></script>
 </body>
 </html>
